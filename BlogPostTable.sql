@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[BlogPosts]
+(
+	Id				INT				PRIMARY KEY IDENTITY,
+	Title			NVARCHAR(500)	NOT NULL,
+	Body			NVARCHAR(MAX)	NOT NULL,
+	PublishDate		DATETIME		NOT NULL
+);
